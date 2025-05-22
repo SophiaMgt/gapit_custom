@@ -8878,6 +8878,7 @@ if(is.null(DP)&is.null(IC))#inputdata is other method result
         print("Joining tvalue and stderr" )
         DTS=cbind(GI,df,tvalue,stderr,effect.est)
         colnames(DTS)=c("SNP","Chromosome","Position","DF","t Value","std Error","effect")	
+        print("DTS ok" ) 
         print("Creating ROC table and plot" )
 
         if(file.output)
