@@ -87,9 +87,11 @@ if(is.null(DP)&is.null(IC))#inputdata is other method result
             print("QQ plot..." )
             GAPIT.QQ(P.values = ps, name.of.trait = name.of.trait,DPP=DPP)
             print("Manhattan plot (Genomewise)..." )
-            GAPIT.Manhattan(GI.MP = cbind(GI[,-1],ps), name.of.trait = name.of.trait, DPP=DPP, plot.type = "Genomewise",cutOff=DP$cutOff,seqQTN=QTN.position,plot.style=plot.style,plot.bin=plot.bin)
+            print("GAPIT.Manhattan in comment")
+            #GAPIT.Manhattan(GI.MP = cbind(GI[,-1],ps), name.of.trait = name.of.trait, DPP=DPP, plot.type = "Genomewise",cutOff=DP$cutOff,seqQTN=QTN.position,plot.style=plot.style,plot.bin=plot.bin)
             print("Manhattan plot (Chromosomewise)..." )
-            GAPIT.Manhattan(GI.MP = cbind(GI[,-1],ps), name.of.trait = name.of.trait, DPP=DPP, plot.type = "Chromosomewise",cutOff=DP$cutOff,plot.bin=plot.bin)
+            print("GAPIT.Manhattan (Chromosomewise) in comment")
+            #GAPIT.Manhattan(GI.MP = cbind(GI[,-1],ps), name.of.trait = name.of.trait, DPP=DPP, plot.type = "Chromosomewise",cutOff=DP$cutOff,plot.bin=plot.bin)
           }
   #Association Table
         print("Association table..." )
