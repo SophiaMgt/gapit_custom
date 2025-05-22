@@ -46,8 +46,9 @@
 #Writen by Jiabo Wang
 #Last update: Novenber 3, 2016
 ##############################################################################################
-print("GAPIT.ID in process...")
+print("GAPIT.ID modify in process...")
 #Define the funcitno here
+print(DP)
 
 if(is.null(DP)&is.null(IC))#inputdata is other method result
   {
